@@ -1,8 +1,12 @@
 import React from 'react'
+import styles from './Find.module.css'
 
-const Card = () => {
+const Card = ({image, make}) => {
   return (
-    <div>Card</div>
+    <div className={styles.card}>
+        <img src={image} alt='' />
+        <p>{make}</p>
+    </div>
   )
 }
 
