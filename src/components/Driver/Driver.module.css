@@ -34,20 +34,3 @@
     background-color: #593cfb;
     transition: background-color 1s;
 }
-@media screen and (max-width: 920px) {
-    .driver{
-        -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    }
-    .driver img{
-        max-width: 80%;
-        margin: auto;
-    }
-    .driver .left{
-        display: flex;
-        justify-content: center;
-    }
-    .driver h2{
-        padding-top: 10%;
-    }
-}
