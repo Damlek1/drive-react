@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Find.module.css'
 import Card from './Card'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import 'swiper/css'
 import 'swiper/css/navigation'
 import Audi from '../../images/Audi.avif'
@@ -20,7 +20,7 @@ import Porshe from '../../images/Porshe.avif'
 
 
 const Find = () => {
-    
+
   return (
     <div className={styles.find}>
         <div className={styles.heading}>
@@ -33,10 +33,12 @@ const Find = () => {
         </div>
         <div className={styles.slider_container}>
         <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={10}
         slidesPerView={5}
+        Pagination ={{ clickable: true }}
         navigation
+        autoplay={true}
         breakpoints={{
         340: {
             width: 200,
