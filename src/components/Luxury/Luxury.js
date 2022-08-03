@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Luxury.module.css'
-import rollsroyce from '../../images/rolls royce.webp'
+import rollsroyce from '../../images/rolls royce.png'
 import maserati from '../../images/Maserati.jpeg'
-import rangerover from '../../images/Range rover.avif'
-import porshe from '../../images/porshe2.avif'
+import rangerover from '../../images/Range rover.png'
+import porshe from '../../images/porshe2.png'
 
 
 const Luxury = () => {
